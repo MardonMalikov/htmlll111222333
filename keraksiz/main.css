@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #11565C;
+}
+.talent{
+    margin: 120px;
+    font-size: 70px;
+    width: 350px;
+    color: white;
+}
+.talent__show{
+    color: coral;
+}
+.container__menu{
+    color: white;
+    top: 40px;
+    left: 100px;
+    position: absolute;
+    font-size: 30px;
+}
+.container__box{
+    color: white;
+    gap: 20px;
+    top: 52px;
+    left: 250px;
+    position: absolute;
+}
+.container__box__one__a{
+    left:70px;
+    position: absolute;
+}
+.container__bloc__btn{
+    top:40px;
+    left: 800px;
+    position: absolute;
+    background: #11565C;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 80px;
+    height: 30px;
+    color: white;
+}
+.container__text{
+    color: white;
+    width: 350px;
+    top:200px;
+    left: 550px;
+    position: absolute;
+}
+.container__chiziq{
+    color: cornflowerblue;
+    font-size: 70px;
+    top: 80px;
+    left: 550px;
+    position: absolute;
+}
+.container__img{
+    top: 120px;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+}
+.container__img__one{
+    width: 80px;
+}
+.container__imgg{
+    left: 600px;
+    top: 400px;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+}
+.container__img__two{
+    width: 300px;
+
+}
