@@ -140,5 +140,43 @@ h2{
 .text__two1{
     color: darkgray;
     margin-bottom: 15px;
-
+}
+.header{
+    position: sticky;
+    height: 81px;
+    background-color: black;
+    z-index: 100;
+}
+.logo{
+    display: flex;
+    gap: 70px;
+    color: white;
+    align-items: center;
+    margin-left: 80px;
+}
+.menu{
+    display: flex;
+    gap: 50px;
+    color: white;
+    margin-left: 690px;
+    margin-top: -29px;
+}
+.button{
+    display: flex;
+    gap: 50px;
+    margin-left: 1020px;
+    margin-top: -20px;
+}
+.hero{
+    height: 732px;
+    background-color:#FF7143;
+}
+.hero-button{
+    gap:15px;
+    margin-left: 150px;
+    border-bottom: 100px;
+}
+.hero-image{
+    margin-top: 150px;
+    margin-left: 150px;
 }
