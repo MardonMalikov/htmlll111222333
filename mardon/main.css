@@ -4,125 +4,659 @@
     box-sizing: border-box;
 }
 
-
-
-body {
-    width: 1440px;
-    margin: 0 auto;
-    height: 100vh;
+.display__fiksed {
+    position: absolute;
+    width: 80px;
+    height: 56px;
+    top: 300px;
+    background-color: #0076F5;
+    border-radius: 0 50% 50% 0;
+    box-shadow: #0076F5 1px 1px 1px;
 }
 
+.display__fiksed-img{
 
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.conatiner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    justify-content: center;
+}
 
 h1 {
-    display: flex;
-    width: 192px;
-    height: 39px;
-    font-size: 32px;
-    margin-left: 550px;
-    margin-top: 30px;
-    color: #6E728E;
+    width: 145px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 21px;
 }
 
-.hero {
+span {
+    color: #0076F5;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+    margin-top: -20px;
+    margin-left: 660px;
+    color: black;
+}
+
+.menu__box:hover {
+    cursor: pointer;
+    color: #0076F5;
+}
+
+.button {
+    width: 116px;
+    height: 50px;
+    border: 1px solid #0076F5;
+    border-radius: 10px;
+    margin-left: 1300px;
+    margin-top: -60px;
+    color: #0076F5;
+    background: white;
+}
+
+button:hover {
+    background: #0076F5;
+    box-shadow: 1px 1px 10px #0076F5;
+    color: white;
+}
+
+.Asosiy__img {
+    width: 754px;
+    height: 749px;
+    margin-left: 725px;
+    margin-top: 60px;
+}
+
+.Asosiy__text {
+    color: black;
+    margin-left: 90px;
+    margin-top: -700px;
+    font-size: 79px;
+    width: 747px;
+    height: 352px;
+}
+
+.Asosiy__button__one {
+    width: 226px;
+    height: 50px;
+    border: 1px solid #0076F5;
+    border-radius: 10px;
+    color: #0076F5;
+    background: white;
+}
+
+.Asosiy__button {
     display: flex;
     gap: 24px;
-    margin-left: 525px;
-    margin-top: 25px;
-}
-
-.yoqqich {
-    width: 56px;
-    height: 32px;
-}
-
-.hero__text {
-    margin-top: 5px;
-    color: darkgray;
-}
-
-.card {
-    width: 350px;
-    height: 501px;
-    border: 1px solid white;
-    border-radius: 10px;
-    margin-top: -25px;
-}
-
-.cardbox {
-    display: flex;
-    margin-left: 150px;
     margin-top: 50px;
+    margin-left: 90px;
+}
+
+.Asosiy__button__one:hover {
+    background: #0076F5;
+    box-shadow: 1px 1px 10px #0076F5;
+    color: white;
+}
+
+.statistika__h2 {
+    margin-left: 90px;
+    margin-top: 250px;
+    font-size: 44px;
+}
+
+.statistika__one {
+    display: flex;
+    width: 300px;
+    height: 246px;
+    border: 1px solid #0076F5;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    box-shadow: 5px 5px 10px #0076F5;
+}
+
+.statistika {
+    display: flex;
+    gap: 50px;
+    margin-left: 90px;
+    margin-top: 24px;
+
+}
+
+.statistika__one__img {
+    width: 72px;
+    height: 72px;
+    margin-left: 110px;
+    margin-top: 32px;
 }
 
 h2 {
-    color: white;
-    width: 116px;
-    height: 28px;
-    font-size: 18px;
-    margin-left: 116px;
-    margin-top: 54px;
+    width: 146px;
+    height: 52px;
+    margin-top: 120px;
+    margin-left: -70px;
+    font-size: 44px;
 }
 
-.number {
-    color: white;
-    font-size: 72px;
-    margin-left: 30px;
-    margin-top: 20px;
+.statistika__one__text {
+    width: 227px;
+    height: 34px;
+    font-size: 25px;
+    color: #514D48;
+    margin-left: -150px;
+    margin-top: 170px;
 }
 
-.number__one {
-    color: white;
-    font-size: 40px;
-    width: 26px;
-    height: 49px;
+.h2 {
+    margin-left: 90px;
+    width: 500px;
 }
 
-.chiziq {
-    width: 288px;
-    height: 1px;
-    border: 1px solid #FFFFFF;
-    margin-left: 30px;
+.img__one {
+    width: 754px;
+    height: 603px;
+    margin-left: 70px;
+}
+
+h3 {
+    width: 423px;
+    height: 34px;
+    font-size: 25px;
+    margin-left: 900px;
+    margin-top: -450px;
 }
 
 .text {
-    color: white;
-    font-size: 20px;
-    margin-left: 100px;
-    padding: 20px;
+    width: 482px;
+    height: 104px;
+    font-size: 17px;
+    color: #514D48;
+    margin-left: 900px;
+}
+
+.kurslar__h2 {
+    margin-left: 90px;
+    margin-top: 250px;
+}
+
+.kurslar__p {
+    color: #0076F5;
+    font-size: 19px;
+    margin-left: 1300px;
+    margin-top: -30px;
+}
+
+.kurslar__box__one {
+    width: 370px;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 24px;
+    box-shadow: 5px 5px 5px 5px darkgray;
+}
+
+.kurslar__box {
+    display: flex;
 
 }
-button{
-    width: 288px;
-    height: 44px;
-    margin-left: 25px;
-    margin-top: 30px;
-    border-radius: 6px;
-    font-size: 13px;
-    background-color: #FFFFFF;
+
+.kurslar__img {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
 }
-.text1{
-    color: #6E728E;
-    font-size: 20px;
+
+.kurslar__box__h2 {
+    margin-left: 90px;
+    font-size: 25px;
 }
-.chiziq1{
-    width: 288px;
-    height: 1px;
-    border: 1px solid white;
+
+.kurslar__box__p {
     margin-left: 30px;
+    color: #514D48;
 }
-.img{
-    width: 300px;
-    height: 550px;
-    margin: 0 auto;
-    z-index: -1;
-    position: absolute;
-    margin-top: -50px;
-    margin-left: -190px;
+
+.kurslar__box__text {
+    margin-left: 90px;
+    margin-top: 30px;
 }
-@media (max-width: 375px) {
-    .container {
-        background-color: white;
+
+.kurslar__box__text1 {
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.kurslar__box__button {
+    width: 195px;
+    height: 50px;
+    border: 1px solid #0076F5;
+    border-radius: 10px;
+    color: #0076F5;
+    margin-left: 70px;
+    margin-top: 30px;
+    background: white;
+}
+
+.kurslar__box__button:hover {
+    background: #0076F5;
+    box-shadow: 1px 1px 10px #0076F5;
+    color: white;
+}
+
+.kurslar__box__two {
+    width: 270px;
+    height: 400px;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 24px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 5px 5px darkgray;
+}
+
+.bepul__img {
+    width: 250px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.imgg {
+    width: 100px;
+    height: 100px;
+    margin-left: 75px;
+    margin-top: 40px;
+}
+
+.text__one {
+    margin-left: 40px;
+    font-size: 25px;
+    width: 231px;
+
+    margin-top: 16px;
+}
+
+.text__two {
+    margin-left: 60px;
+    font-size: 19px;
+    width: 231px;
+    color: #0076F5;
+}
+
+.text__three {
+    margin-left: 5px;
+    font-size: 16px;
+    width: 270px;
+    color: #514D48;
+    margin-top: 16px;
+}
+
+.imgg__two {
+    width: 120px;
+    height: 24px;
+    margin-left: 65px;
+    margin-top: 24px;
+}
+
+.sarlavha__one {
+    margin-left: 90px;
+}
+
+.sertifikat__img1 {
+    width: 738px;
+    height: 524px;
+    margin-top: 24px;
+    margin-left: 90px;
+
+}
+
+.text__four {
+    width: 482px;
+    height: 52px;
+    margin-left: 900px;
+    color: #514D48;
+}
+
+.sarlavha__one__one {
+    margin-top: -250px;
+    font-size: 25px;
+}
+
+.sertifikat__text {
+    margin-left: 100px;
+}
+
+.footer__one {
+    margin-top: 350px;
+}
+
+.footer__text {
+    width: 376px;
+    font-size: 17px;
+    color: #31344B;
+    margin-left: -50px;
+}
+
+.f__img1 {
+    width: 24px;
+    height: 24px;
+}
+
+.footer__img {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 100px;
+    margin-top: 29px;
+    margin-left: -30px;
+}
+
+.footer__one {
+    display: flex;
+    gap: 150px;
+}
+
+.text11 {
+    margin-bottom: 20px;
+}
+
+.text12 {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.footer__text__one {
+    color: #31344B;
+}
+
+.text13 {
+    width: 354px;
+    margin-bottom: 10px;
+}
+
+.footer__text__one__email {
+    width: 354px;
+    height: 50px;
+    border: 1px solid #0076F5;
+    border-radius: 5px;
+    outline: 1px dashed #0076F5;
+    margin-bottom: 10px;
+}
+
+.footer__text__one__btn {
+    width: 354px;
+    height: 50px;
+    border: 1px solid #0076F5;
+    border-radius: 5px;
+}
+
+.sarlavha__one__two {
+    display: flex;
+    font-size: 33px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.sarlavha__one__tex {
+
+    width: 353px;
+    font-size: 16px;
+    color: #31344B;
+    margin-left: 50px;
+    justify-content: center;
+
+}
+
+
+@media (max-width: 500px) {
+    .conatiner {
+        width: 100%;
+        padding: 20px;
     }
+
+
+    h1 h2 h3, .text, .text__four, .Asosiy__text, .Asosiy__img,
+    .img__one, .sertifikat__img1, .statistika__one__text, .statistika__one__img,
+    .kurslar__p, .kurslar__h2, .statistika__h2, .h2, .button, .menu,
+    .kurslar__box__one, .kurslar__box__two, .sarlavha__one, .sarlavha__one__one,
+    .sertifikat__text, .footer__text, .footer__img, .footer__one {
+        width: auto;
+        height: auto;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .button {
+        width: 100px;
+        height: 40px;
+
+        margin: 0;
+    }
+
+
+    .Asosiy__text {
+        font-size: 32px;
+        line-height: 1.2;
+        margin-top: 12px;
+    }
+
+    .Asosiy__button {
+        margin: 24px 0 0;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .Asosiy__button__one {
+        width: 100%;
+    }
+
+    .Asosiy__img {
+        width: 100%;
+        height: auto;
+        margin: 24px 0 0;
+    }
+
+
+    .statistika__h2 {
+        font-size: 28px;
+        margin: 48px;
+    }
+
+    .statistika {
+        flex-wrap: wrap;
+        gap: 16px;
+        margin: 16px;
+    }
+
+    .statistika__one {
+        width: 230px;
+        height: auto;
+        min-height: 150px;
+        margin-bottom: 0;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 16px 8px;
+        box-shadow: 3px 3px 8px #0076F5;
+    }
+
+    .statistika__one__img {
+        width: 48px;
+        height: 48px;
+        margin: 0;
+    }
+
+    .statistika__one h2 {
+        font-size: 28px;
+        margin: 8px 0 0;
+    }
+
+    .statistika__one__text {
+        font-size: 16px;
+        margin: 4px 0 0;
+    }
+
+
+    .h2.kurslar_h2 {
+        font-size: 28px;
+        margin: 48px 0 16px;
+    }
+
+    .img__one {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: 22px;
+        margin: 16px 0 8px;
+    }
+
+    .text {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .kurslar__p {
+        font-size: 16px;
+        margin: 12px;
+    }
+
+    .kurslar__box {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .kurslar__box__two {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px 16px;
+        box-shadow: 3px 3px 8px darkgray;
+        text-align: center;
+    }
+
+    .kurslar__img {
+        margin: 0 auto 12px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .kurslar__box__h2 {
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .kurslar__box__text1 {
+        margin: 12px;
+    }
+
+    .kurslar__box__button {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .bepul__img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .imgg {
+        margin: 16px auto 0;
+        display: block;
+    }
+
+    .imgg__two {
+        margin: 16px auto 0;
+        display: block;
+    }
+
+    .text__one .text__two .text__three {
+        width: auto;
+        margin: 12px 0 0;
+        text-align: center;
+    }
+
+
+    .sertifikat__img1 {
+        width: 100%;
+        height: auto;
+        margin: 16px;
+    }
+
+    .sarlavha__one__one {
+        margin-top: 16px;
+        font-size: 22px;
+    }
+
+    .text__four {
+        width: auto;
+        height: auto;
+        margin: 8px;
+    }
+
+    .sertifikat__text {
+        margin: 0;
+    }
+
+    .footer__one {
+        flex-direction: column;
+        gap: 32px;
+        margin-top: 60px;
+    }
+
+    .footer__text {
+        width: 100%;
+        margin: 0;
+    }
+
+    .footer__img {
+        margin: 16px;
+    }
+
+    .footer__text__one__btn {
+        width: 100%;
+    }
+
+    .sarlavha__one__two {
+        font-size: 26px;
+    }
+
+    .sarlavha__one__tex {
+        width: 100%;
+        margin: 0;
+    }
+
 
 }
